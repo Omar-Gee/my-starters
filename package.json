@@ -4,7 +4,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "slicemachine": "start-slicemachine"
   },
   "dependencies": {
     "@emotion/cache": "latest",
@@ -13,17 +14,24 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
+    "@prismicio/client": "^6.7.3",
+    "@prismicio/helpers": "^2.3.9",
+    "@prismicio/next": "^1.0.3",
+    "@prismicio/react": "^2.5.2",
+    "@prismicio/slice-simulator-react": "^0.2.3",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@prismicio/types": "^0.2.7",
     "@types/node": "^12.12.21",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
     "eslint": "latest",
     "eslint-config-next": "latest",
     "prettier": "^2.8.4",
+    "slice-machine-ui": "^0.7.0",
     "typescript": "^4.8.3"
   }
 }

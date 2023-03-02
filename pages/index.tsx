@@ -1,13 +1,10 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import Layout from "../components/Layout";
+import { Box } from "@mui/material";
 
 const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link href="/about">About</Link>
-    </p>
+  <Layout title="GWS | Home">
+    <Box>home</Box>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

@@ -1,14 +1,10 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import Layout from "../components/Layout";
+import { Box } from "@mui/material";
 
 const AboutPage = () => (
-  <Layout title="About | Next.js + TypeScript Example">
-    <h1>About</h1>
-    <p>This is the about page</p>
-    <p>
-      <Link href="/">Go home</Link>
-    </p>
+  <Layout title="GWS | About">
+    <Box>About</Box>
   </Layout>
-)
+);
 
-export default AboutPage
+export default AboutPage;
